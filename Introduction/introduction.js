@@ -1,5 +1,15 @@
-function solutionOne(firstName,secondName){
-    return "Hi, my name is " + firstName + " " + secondName + ".";
+function solutionOne(firstName,lastName){
+    return "Hi, my name is " + firstName + " " + lastName + ".";
 }
 
-console.log(solutionOne("Carlos","Ramirez"))
+function solutionTwo(firstName,lastName){
+    let intro = "Hi, my name is ".concat(firstName, " ",lastName,".");
+    return intro;
+}
+
+function solutionThree(firstName,lastName){
+    let intro = `Hi, my name is ${firstName} ${lastName}.`;
+    return intro;
+}
+
+console.log(solutionThree("Carlos","Ramirez"))
