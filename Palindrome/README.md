@@ -3,7 +3,7 @@
 
 # Example Returns
 * yourFunction("A man, a plan, a canal. Panama") will return true.
-* yourFunction("My age is 0, 0 is ega ym.") will return true.
+* yourFunction("My age is 0, 0 si ega ym.") will return true.
 * yourFunction("_codegod") will return false.
 * yourFunction("legendary") will return false.
 * yourFunction(".0_0 (:/-\:)0-0") will return true.
