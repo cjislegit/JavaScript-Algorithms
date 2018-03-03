@@ -2,7 +2,7 @@ function solution1(string){
     let forward = string.toLowerCase().replace(/[\W_]+/g,"");
     let backword = forward.split("").reverse().join("");
 
-    return forward === backword ? true : false;
+    return forward === backword;
     //return backword
 }
 
