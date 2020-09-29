@@ -1,12 +1,12 @@
 const uniqueValue = (arr1, arr2) => {
   let newArr = [];
   arr1.forEach((element) => {
-    if (!arr2.includes(element)) {
+    if (!arr2.includes(element) && !newArr.includes(element)) {
       newArr.push(element);
     }
   });
   arr2.forEach((element) => {
-    if (!arr1.includes(element)) {
+    if (!arr1.includes(element) && !newArr.includes(element)) {
       newArr.push(element);
     }
   });
